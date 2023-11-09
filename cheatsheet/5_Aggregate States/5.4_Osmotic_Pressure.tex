@@ -1,0 +1,617 @@
+\subsection{Osmotic Pressure}{
+The pressure required to counteract osmotic flow of a liquid is called the osmotic pressure. The osmotic flow tries to equalize concentrations across semi-permeable membranes.\\
+\begin{minipage}{0.3\linewidth}
+    \fbox{$\Pi = i (\frac{n}{V}) RT = iMRT$}\\
+\end{minipage}
+\begin{minipage}{0.69\linewidth}
+    $\Pi \equiv$ osmotic pressure\\
+    $\frac{n}{V} = M \equiv$ molarity\\
+    $i \equiv$ van't Hoff factor
+\end{minipage}}
+
+
+
+% --------------------------------------
+%5.5 Ideal Gases
+%---------------------------------------
+\subsection{Ideal Gases}
+\begin{minipage}{0.33\linewidth}
+    Assumptions for ideal gases:\\
+    $\circ$ Gas particles do not interact\\
+    $\circ$ Gas particles have no volume\\
+    \textbf{$1^{st}$ Gas (Boyle's) Law}\\
+    \fbox{$P \cdot V = const.$ if $n$ \& $T const.$}\\
+    \textbf{$2^{nd}$ Gas (Charles') Law}\\
+    \fbox{$\frac{V}{T} = const.$ if $n$ \& $P const.$}\\
+    \textbf{$3^{rd}$ Gas (Avogadro's) Law}\\
+    \fbox{$\frac{V}{n} = const.$ if $P$ \& $T const.$}\\
+    \textbf{Van der Waals Equations}\\
+    \fbox{$(P + \frac{n^2 a}{V^2})(V - nb) = nRT$}\\
+    a, b are correction factors\\
+    $\frac{n^2a}{V^2}$ corrects interactions at low $T$.\\
+    $nb$ corrects non-neglible volume occupied by molecules at high $P$
+\end{minipage}
+\begin{minipage}{0.33\linewidth}
+    \textbf{Ideal Gas Law}\\
+    \fbox{$P\cdot V = n\cdot R \cdot T$}\\
+    \textbf{Molar Gas Volume (STP)}\\
+    \fbox{$V_{mol} = 22.41 l = 22.41 dm^3$}\\
+    \textbf{Atmospheric Pressure}\\
+    \fbox{\begin{varwidth}{\textwidth}
+    \centering
+    $P_{atm} = 760 mmHg = 760 Torr$\\ $ = 1 atm = 101325 Pa = 1.01325 bar$
+    \end{varwidth}}
+    \textbf{Barometer}\\
+    \fbox{$P = \rho g h$}
+    \begin{center}
+        \includegraphics[width = 0.9\linewidth]{images/Barometer.jpeg}
+    \end{center}
+\end{minipage}
+\begin{minipage}{0.33\linewidth}
+    \textbf{Density (IGL)}\\
+    \fbox{$\rho = \frac{P}{R\cdot T} \cdot M_w$}\\
+    \textbf{Molecular Weight (IGL)}\\
+    \fbox{$M_w = \frac{\rho R T}{P}$}\\
+    \textbf{Partial Pressures \\ Dalton's Law}\\
+    \fbox{\begin{varwidth}{\textwidth}
+    \centering
+    $P_{tot} = \sum_i P_i$\\ $P_i = \frac{n_i}{n_{tot}} \cdot P_{tot} = \chi_i \cdot P_{tot}$
+    \end{varwidth}}\\
+    \textbf{Manometer}\\
+    \fbox{$P_{gas} = P_{atm} + \rho g h$}\\
+    \begin{center}
+        \includegraphics[width = 0.8\linewidth]{images/Manometer.jpeg}
+    \end{center}
+\end{minipage}
+\begin{center}
+    \includegraphics[width = 0.9\linewidth]{images/gas_kinetics.jpeg}
+\end{center}
+
+%---------------------------------------
+%6. Thermodynamics
+%---------------------------------------
+\section{Thermodynamics}
+%---------------------------------------
+%6.1 The Three Laws of Thermodynamics
+%---------------------------------------
+\subsection{The Three Laws of Thermodynamics}
+\textbf{\textcolor{red}{$1^{st}$ Law}}\\
+\fbox{Energy can be converted from one form to another, but it is neither created nor destroyed.}\\
+\textbf{\textcolor{red}{$2^{nd}$ Law}}\\
+\fbox{\begin{varwidth}{\textwidth}
+\centering
+The entropy of the universe increases for any spontaneous process.\\ Reversible Process: $\Delta S_{univ} = \Delta S_{sys} + \Delta S_{surr} = 0$\\
+Irreversible Process: $\Delta S_{univ} = \Delta S_{sys} + \Delta S_{surr} > 0$
+\end{varwidth}}\\
+\textbf{\textcolor{red}{$3^{rd}$ Law}}\\
+\fbox{\begin{varwidth}{\textwidth}
+The entropy of a pure, perfect crystalline substance at absolute zero is zero: $S (0K) = 0$. 
+\\There is only one possible microstate.\\
+$S = k ln(W) = k ln(1) = 0$
+\end{varwidth}}\\
+%---------------------------------------
+%6.2 System and Internal Energy 
+%---------------------------------------
+\subsection{System and Internal Energy}
+\begin{minipage}{0.75\linewidth}
+\textbf{System Types and Internal Energy}\\
+\fbox{\begin{varwidth}{\textwidth}
+\textbf{Open}: Matter and energy can be exchanged with surroundings\\
+\textbf{Closed:} Energy can be exchanged with surroundings (but not matter)\\
+\textbf{Isolated:} Neither matter nor energy is exchanged with surroundings\\
+$\Delta E = E_{final} - E_{initial}, \Delta E > 0 \longrightarrow$ system has gained $E$, $\Delta E < 0 \longrightarrow$ system has lost $E$.
+\end{varwidth}}\\    
+\end{minipage}
+\begin{minipage}{0.24\linewidth}
+\textbf{State functions}\\
+$\circ$ Gibbs free energy, enthalpy, entropy and internal energy are state functions\\
+$\circ$ Work is not a state function
+\end{minipage}
+\begin{minipage}{0.65\linewidth}
+\textbf{Internal Energy}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\Delta E = q + w$, $q \equiv$ heat is added to system, $w \equiv$ work done on system\\
+$q > 0$ heat is added to system (\textcolor{blue}{endothermic}) \hspace{3pt} $w > 0$ work done on system\\
+$q < 0$ heat is lost by system (\textcolor{blue}{exothermic}) \hspace{8pt} $w < 0$ work done by system
+\end{varwidth}}\\  
+\textbf{Calorimetry} \hspace {8pt} \textbf{e.g.} $H_{2}O$: $c_s = 4.18 \frac{J}{g \cdot K}$\\
+\fbox{\begin{varwidth}{\textwidth}Heat capacity $=$ heat required for $\Delta T = 1K$ for specific substance\\
+$q = n \cdot c_m \cdot \Delta T$ \hspace{3pt} $c_m \equiv$ molar heat capacity \hspace{3pt} $[c_m] = \frac{J}{mol \cdot K}$\\
+$q = n \cdot c_s \cdot \Delta T$ \hspace{3pt} $c_s \equiv$ specific heat capacity \hspace{3pt} $[c_s] = \frac{J}{g \cdot K}$
+\end{varwidth}}   
+\end{minipage}
+\begin{minipage}{0.27\linewidth}
+\begin{center}
+    \textbf{Exothermic Reaction}
+    \includegraphics[width = \linewidth]{images/exothermic reaction.jpeg}
+\end{center}
+\begin{center}
+    \textbf{Endothermic Reaction}
+    \includegraphics[width = \linewidth]{images/endothermic reaction.jpeg}
+\end{center}   
+\end{minipage}
+%---------------------------------------
+%6.3 Enthalpy
+%---------------------------------------
+\subsection{Enthalpy}
+\begin{minipage}{0.49\linewidth}
+\textbf{Enthalpy}\\
+\fbox{\begin{varwidth}{\textwidth}
+$H \equiv E + PV = $ internal energy $+$ pressure-volume work\\
+$\Delta H = \Delta E + P \Delta V = (q_p + w) - w ) = q_b$\\
+Change in enthalpy is equal to heat at constant $P$\\
+$\longrightarrow$ if $\Delta V$ small $\Delta H \simeq \Delta E$ \hspace{5pt} $w = -P\cdot V$
+\end{varwidth}}\\
+\textbf{Enthalpies of Reaction (Heat of Reaction}\\
+\fbox{\begin{varwidth}{\textwidth}$\Delta H = H_{final} - H_{initial}$ \hspace{5pt} $\Delta H_{forward} = - \Delta H_{reverse}$\\
+$\Delta H = H_{products} - H_{reactants}$\\
+$\Delta H_{rxn}^{\circ} = \sum n \Delta H_f^{\circ}$ (products) $- \sum m \Delta H_f^{\circ}$ (reactants)
+\end{varwidth}}
+\end{minipage}
+\begin{minipage}{0.50\linewidth}
+\begin{center}
+\fbox{ \includegraphics[width = 0.65\linewidth]{images/enthalpy.jpeg}}
+\end{center}
+\begin{center}
+    \textbf{Pressure-Volume Work}\\
+    \fbox{$W = -P (V_{final} - V_{initial})$}\\
+\end{center}
+\textbf{\textcolor{red}{Hess's Law}}\\
+\fbox{\begin{varwidth}{\textwidth} If a reaction can be written in steps, then enthalpy \\
+change of reaction is sum of enthalpy changes for steps.\\
+$\Delta H_{rxn} = \Delta H_1 + \Delta H_2 + \Delta H_3 + ...$
+\end{varwidth}}
+    
+\end{minipage}
+\umbruch
+%---------------------------------------
+%6.4 Entropy
+%---------------------------------------
+\subsection{Entropy}
+\textbf{Entropy S}\\
+\fbox{\begin{varwidth}{\textwidth}
+A measure of the tendency for E to spread, which reduces system's ability to do work\\ (related to randomness or disorder in system).\\
+$\Delta S = \frac{q_{rev}}{T}$ \hspace{3pt} $q_{rev} \equiv$ heat flow for reversible process \hspace{3pt} $T \equiv$ absolute temperature\\
+$\Delta S$ for phase changes (melting/boiling) \hspace{5pt} isothermal $\longrightarrow$ $q_{rev} = \Delta H_{fus}$ \& $q_{rev} = \Delta H_{vap}$
+\end{varwidth}}\\
+\begin{minipage}{0.58\linewidth}
+\textbf{Boltzmann Equation}\\
+\fbox{\begin{varwidth}{\textwidth}
+    $S = k_B ln(W)$ \hspace{5pt} $W = \# $ microstates \hspace{3pt} $k_B = 1.38 \cdot 10^{-23} \frac{J}{K}$\\
+    $\Delta S = k_B ln(W_{final}) - k_B ln(W_{initial}) = k_B ln(\frac{W_final}{W_initial})$\\
+    Entropy increases with the number of microstates of the system. 
+    
+\end{varwidth}}
+
+\end{minipage}
+\begin{minipage}{0.40 \linewidth}
+\textbf{$\Delta$S for Chemical Reactions}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\Delta S^{\circ} = \sum n S^{\circ}$ (products) $- \sum m S^{\circ}$ (reactants\\
+$\Delta S^{\circ} = \Delta S_{sys}^{\circ} \equiv$ standard molar entropies
+\end{varwidth}}\\
+\textbf{$\Delta S_{surr}$}\\
+\fbox{$\Delta S_{surr} = \frac{q_{surr}}{T} = \frac{-q_{sys}}{T} = \frac{-\Delta H_{rxn}^{\circ}}{T}$ [at constant P]}
+\end{minipage}
+%---------------------------------------
+%6.5 Gibbs Free Energy
+%---------------------------------------
+\subsection{Gibbs Free Energy}
+\begin{minipage}{0.71\linewidth}
+\textbf{Gibbs Free Energy}\\
+\fbox{\begin{varwidth}{\textwidth}
+$G = H - TS$ \hspace{5pt} $\Delta G^{\circ} = \Delta H^{\circ} - T \Delta S^{\circ}$\\
+$\circ$ If $\Delta G < 0$, the reaction is spontaneous in the forward direction. (\textcolor{blue}{irreversible})\\
+$\circ$ If $\Delta G = 0$, the reaction is at equilibrium. (\textcolor{blue}{reversible})\\
+$\circ$ If $\Delta G > 0$, the reaction is nonspontaneous in the forward direction (work must be\\
+done to make it occur) but the reverse reaction is spontaneous.
+\end{varwidth}}\\
+\textbf{Standard Free Energy of Formation}\\
+\fbox{$ \Delta G ^{\circ} = \sum n \Delta G_f^{\circ}$ (products) $- \sum m \Delta G_f^{\circ}$ (reactants)}
+
+\end{minipage}
+\begin{minipage}{0.26\linewidth}
+\textbf{Pure Substances}\\
+\fbox{\begin{varwidth}{\textwidth}Gibbs Free energy and enthalpy of pure substances are 0
+\end{varwidth}}
+\end{minipage}\\
+\textbf{The Importance of $T$}\\
+\begin{tabular}{c|c|c|c|c|c}
+    Example & $\Delta H$ & $\Delta S$ & $-T \Delta S$ & $\Delta G$ & Temperature dependence \\ \hline
+    $2 O_3 (g) \longrightarrow 3 O_2 (g)$ & \colorbox{red}{$-$} & \colorbox{green}{$+$}  & \colorbox{red}{$-$} & \colorbox{red}{$-$} & spontaneous at all $T$\\
+    $3 O_2 (g) \longrightarrow 2 O_3 (g)$ & \colorbox{green}{$+$} & \colorbox{red}{$-$} & \colorbox{green}{$+$} & \colorbox{green}{$+$}& nonspontaneous at all $T$\\
+    $H_2 O (l) \longrightarrow H_2O (s)$ & \colorbox{red}{$-$} & \colorbox{red}{$-$} &\colorbox{green}{$+$}& \colorbox{yellow}{$+$ or $-$}& spontaneous at low $T$\\
+    $H_2O(s) \longrightarrow H_2O(l)$ &\colorbox{green}{$+$} &\colorbox{green}{$+$} & \colorbox{red}{$-$} 
+    & \colorbox{yellow}{$+$ or $-$}& spontaneous at high $T$
+\end{tabular}\\
+\textbf{Spontaneous vs. Nonspontaneous Processes}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\circ$ If process is spontaneous on one direction $\longrightarrow$ nonspontaneous in reverse\\
+$\circ$ Nonspontaneous does not mean impossible (add energy)\\
+$\circ$ Experimental conditions matter\\
+$\circ$ All spontaneous processes are irreversible (requires work to return to initial state).
+\end{varwidth}}\\
+\textbf{Reversible vs. Irreversible Processes}\\
+\fbox{\begin{varwidth}{\textwidth}\textcolor{blue}{Reversible}: Process can be reversed with no change to surroundings. \hspace{3pt}
+$\Delta S_{univ} = 0$\\
+\textcolor{blue}{Irreversible}: Surroundings change when process is reversed (e.g. heat transfer) \end{varwidth}}
+
+%---------------------------------------
+%7. Kinetics
+%---------------------------------------
+\section{Kinetics}
+%---------------------------------------
+%7.1 Reactions Rates
+%---------------------------------------
+\subsection{Reaction Rates}
+\begin{minipage}{0.5 \linewidth}
+$\circ$ Convention: Reaction rates are always positive\\
+\fbox{\begin{varwidth}{\textwidth}$Rate = -\frac{1}{\alpha}\frac{d[A]}{dt} = -\frac{1}{\beta}\frac{d[B]}{dt} = \frac{1}{\gamma}\frac{d[C]}{dt} = \frac{1}{\delta}\frac{d[D]}{dt}$
+\end{varwidth}}\\
+\begin{minipage}{0.49\linewidth}
+\textbf{Reaction Order}\\
+\fbox{$ Rate = k [A]^m [B]^n$}\\    
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+$k:$ rate constant\\
+$m, n$: rxn order\\
+$m+n$: overall rxn order     
+\end{minipage}
+   
+\end{minipage}
+\begin{minipage}{0.49\linewidth}
+   
+    \begin{center}
+     \textbf{Examples}\\
+        \begin{tabular}{c|c}
+         Overall rxn order & units of k  \\ \hline
+         0 & $M s^{-1}$\\
+         $\frac{1}{2}$ & $M^{1/2}s^{-1}$\\
+         1 & $s^{-1}$\\
+         2 & $M^{-1}s^{-1}$\\
+         3 & $M^{-2}s^{-1}$
+    \end{tabular}    
+    \end{center}
+
+\end{minipage}
+%---------------------------------------
+%7.2 Rate Laws
+%---------------------------------------
+\subsection{Rate Laws}
+\begin{minipage}{0.33\linewidth}
+    \begin{center}
+        \textbf{Zero Order}\\
+        \includegraphics[width = \linewidth]{images/0 order.jpeg}\\
+        \fbox{$[A]_t = - kt + [A]_0$}\\
+        \fbox{$t_{1/2} = \frac{[A]_0}{2k}$}
+    \end{center}
+    
+\end{minipage}
+\begin{minipage}{0.33\linewidth}
+    \begin{center}
+        \textbf{First Order}\\
+        \includegraphics[width = \linewidth]{images/1st Order.jpeg}\\
+        \fbox{$ln([A]_t) = - kt + ln([A]_0)$}\\
+        \fbox{$t_{1/2} = \frac{0.693}{k}$}
+    \end{center}
+    
+\end{minipage}
+\begin{minipage}{0.33\linewidth}
+    \begin{center}
+        \textbf{Second Order}\\
+        \includegraphics[width = \linewidth]{images/2nd order.jpeg}\\
+        \fbox{$\frac{1}{[A]_t} = kt + \frac{1}{[A]_0} $}\\
+        \fbox{$t_{1/2} = \frac{[A]_0}{2k}$}
+    \end{center}
+    
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+    \begin{center}
+        \fbox{$[A]_t = [A]_0 e^{-kt}$}
+    \end{center}
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+    \begin{center}
+        $[A]_t \equiv$ Concentration of A at time t\\
+        $[A]_0 \equiv$ Concentration of A at time $t = 0$
+    \end{center}
+\end{minipage}
+%---------------------------------------
+%7.3 Reaction Mechanisms
+%---------------------------------------
+\subsection{Reaction Mechanisms}
+\begin{minipage}{0.65\linewidth}
+\textbf{Arrhenius Equation}\\
+\includegraphics[width = 0.95\linewidth]{images/Arrhenius_Equation.jpeg}
+
+\begin{minipage}{0.4\linewidth}
+    \fbox{$k(T) = A \cdot exp[\frac{-E_a}{RT}]$}\\
+    \fbox{$ln(\frac{k_1}{k_2}) = \frac{E_a}{R}(\frac{1}{T_2} - \frac{1}{T_1})$}
+\end{minipage}
+\begin{minipage}{0.35\linewidth}
+    \begin{center}
+        $E_a \equiv$ activation energy\\
+        $R \equiv$ universal gas constant\\
+        $T \equiv$ absolute Temperature $[T] = K$
+    \end{center}
+\end{minipage}
+$\circ$ Approximation: Increasing temperature by $10 ^{\circ}C$ doubles the rate of reaction.\\
+\textbf{Reaction Mechanism/ Molecularity}\\
+\begin{tabular}{c|c|c}
+     Molecules colliding& Molecularity & Example  \\ \hline
+     one & Unimolecular & $A \longrightarrow Products$\\
+     two & Bimolecular & $A + A \longrightarrow Products$\\
+     three & Termolecular & $A + A + A \longrightarrow Products$
+\end{tabular}\\
+$\circ$ Elementary rxns: stoichiometric coefficients $=$ reactions orders/"exponents"\\
+\textbf{Catalyst}: Increases rxn rate but is neither produced nor consumed in overall rxn. Often lowers activation energy 
+\end{minipage}
+\begin{minipage}{0.34\linewidth}
+\begin{center}
+    \includegraphics[width = 0.95\linewidth]{images/Arrhenius_Plot.jpeg}\\
+    \fbox{$ln(k) ) \frac{-E_a}{R} \frac{1}{T} + ln(A)$}\\
+    \textbf{Multistep Reaction}\\
+    \includegraphics[width = 0.95\linewidth]{images/Multistep_Reaction.jpeg}
+\end{center}
+\end{minipage} 
+\umbruch
+%---------------------------------------
+%8. Acid-Base Chemistry
+%---------------------------------------
+\section{Acid-Base Chemistry}
+%---------------------------------------
+%8.1 Chemical Equilibrium
+%---------------------------------------
+\subsection{Chemical Equilibrium}
+\begin{minipage}{0.55\linewidth}
+\textbf{Law of Mass Action}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\alpha A + \beta B \rightleftharpoons \gamma C + \delta D$ \hspace{30pt} $K_p = K_c (RT) ^{\Delta n}$\\
+\textbf{Molarity Concentrations} \hspace{15pt} \textbf{Partial Pressures}\\
+$K_c = \frac{[C]^{\gamma} [D] ^{\delta}}{[A]^{\alpha} [B] ^{\beta}}$ \hspace{36pt} $K_p = \frac{(P_c)^{\gamma} (P_D)^{\delta}}{(P_A)^{\alpha} (P_B)^{\beta}}$\\
+$K >> 1$ Equil. on RHS \hspace{24pt} $K << 1$ Equil. on LHS
+\end{varwidth}}    
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+    $\circ$ $\Delta n \equiv$ change in moles between products and reactants\\
+    $\circ R = 0.08314 \frac{L\cdot bar}{mol \cdot K}$
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+    \textbf{Reaction Quotient}\\
+    \fbox{$Q = \frac{[C]^{\gamma} [D] ^{\delta}}{[A]^{\alpha} [B] ^{\beta}}$}
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+    $\circ$ If $Q < K$: forward rxn forms more products\\
+    $\circ$ If $Q > K$: reverse rxn forms more reactants\\
+    $\circ$ For system to come to equilibrium $Q = K$
+\end{minipage}
+\vspace{1pt}\\
+\textbf{Types of Equilibria}\\
+$\circ$ Homogeneous equilibria: all substances in same phase\\
+$\circ$ Heterogeneous equilbria: substances in different phases (exclude pure solids and pure liquids from K)\\
+$\circ$ For low-solubility ionic solids $K \longrightarrow K_{sp} \equiv$ solubility product
+\vspace{1pt}\\
+\textbf{Equilibrium Math}\\
+$\circ$ reverse rxn: $K = K_{original}^{-1}$\\
+$\circ$ Rxn multiplied with constant factor n: $K = K_{original}^n$\\
+$\circ$ Multistep rxn: product of K's for individual steps
+%---------------------------------------
+%8.2 Le Châtelier's Principle
+%---------------------------------------
+\subsection{Le Châtelier's Principle}
+\textbf{\textcolor{red}{Le Châtelier's Principle}}\\
+\fbox{\begin{varwidth}{\textwidth}If a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system will shift its \\ equilibrium position so as to counter the effect of the disturbance.\end{varwidth}}
+\textbf{1. Concentration}: If a substance is added to a system at equilibrium, the system reacts to consume some of the substance. If a substance is removed from the system, the system reacts to produce more of that substance. \\
+\textbf{2. Pressure}: At constant temperature, reducing the volume of the gaseaous equilibrium micxture causes the system to shift in the direction that reduces the number of moles of gas.\\
+\begin{minipage}{0.6\linewidth}
+\textbf{3. Temperature}: When increasing the temperature of a system, the system reacts as if we added a reactant to an endothermic reaction or a product to an exothermic reaction. 
+\end{minipage}
+\begin{minipage}{0.39\linewidth}
+\begin{center}
+    \includegraphics[width = 0.95\linewidth]{images/Pressure_le_ chatelier.jpeg}
+\end{center}
+\end{minipage}
+\begin{center}
+    \includegraphics[width = 0.95\linewidth]{images/exothermic_vs_endothermic.jpeg}
+\end{center}
+$\circ$ Catalysed rxns achieve equilibrium faster, but do not change equilibrium constant K.\\
+\begin{minipage}{0.69\linewidth}
+\textbf{Equilibria: Connection to Thermodynamics}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\Delta G = \Delta G^{\circ} + RTln(Q)$ \hspace{15pt} $\Delta G^{\circ} = -RTln(K)$ \hspace{15pt} $K = exp[\frac{-\Delta G^{\circ}}{RT}]$\\
+At equilibrium: $\Delta G = 0, Q = K$
+\end{varwidth}}
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+$\Delta G^{\circ} at STP$\\
+$\Delta G$ not at STP
+\end{minipage}
+%---------------------------------------
+%8.3 Brönsted Acids and Bases
+%---------------------------------------
+\subsection{Brönsted Acids and Bases}
+\begin{minipage}{0.45\linewidth}
+\textbf{Acids}\\
+Acids are substances that ionize in water to form \\
+hydrogen cations ($H^{+}$ donors)\\
+\textbf{e.g.}\\
+\fbox{\begin{varwidth}{\textwidth}
+$H_2SO_4(aq) \longrightarrow H^{+}(aq) + HSO_4^{-}(aq)$\\
+$HSO_4^{-}(aq) \rightleftharpoons H^{+}(aq) + SO_4^{2-} (aq)$
+\end{varwidth}}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+\textbf{Bases}\\
+Bases are substances that accept 
+hydrogen cations \\
+($H^{+}$ acceptors). Bases produce $OH^{-}$ when dissolved in water.\\
+\textbf{e.g}\\
+\fbox{\begin{varwidth}{\textwidth}
+$H_2O (l) + NH_3 (aq) \rightleftharpoons OH^{-} (aq) + NH_4^{+} (aq)$
+\end{varwidth}}
+\end{minipage}\\
+\begin{minipage}{0.6\linewidth}
+\textbf{Autoionization of water (ion-product constant)}\\
+\fbox{$K_w = [H_3O^{+}][OH^{-} = [H^{+}][OH^{-}] = 1.0 \cdot 10^{-14}$ (at $25 ^{\circ}C$)}\\    
+\end{minipage}
+\begin{minipage}{0.30\linewidth}
+    \textbf{Common-Ion Effect:} Add common ion to manipulate acid-base equilibrium\\
+    \textbf{Buffers}: Protect against pH disturbances (comprised of acid and base)
+\end{minipage}\\
+\textbf{Equilibrium constants}\\
+\begin{minipage}{0.5\linewidth}
+    \fbox{\begin{varwidth}{\textwidth}
+    $K_C \equiv K_a = \frac{[A^{-}][H_3O^{+}]}{[HA]} \equiv$ acid-dissociation constant\\
+    $[HA]$: acid \hspace{5pt} $[A^{-}]$: conjugate base
+\end{varwidth}}
+\end{minipage}
+\begin{minipage}{0.49\linewidth}
+ \fbox{\begin{varwidth}{\textwidth}
+    $K_C \equiv K_a = \frac{[HB^{+}][OH^{-}]}{[B]} \equiv$ base-dissociation constant\\
+    $[HB^{+}]$: conjugate acid \hspace{5pt} $[B]$: base
+\end{varwidth}}   
+\end{minipage}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\circ$ \textbf{Weak acid}: $K_a << 1$, equilibrium at $HA$\\
+$\circ$ \textbf{Strong acid}: $K_a >> 1$, equilibrium at $A^{-}$ (completely ionized, arrow only in forward direction)
+\end{varwidth}}
+%---------------------------------------
+%8.4 pH-, pOH-, pKa-, pKb- scales 
+%---------------------------------------
+\subsection{pH-, pOH-, pKa-, pKb- Scales}
+\fbox{\begin{varwidth}{\textwidth}
+$pH = -log[H^{+}] = - log[H_3O^{+}] = -log[\frac{K_w}{[OH^{-}]}$
+\end{varwidth}}
+\hspace{10pt}
+\fbox{\begin{varwidth}{\textwidth}
+$pOH = -log[OH^{-}] =  = -log[\frac{K_w}{[H_3O^{+}]}$
+\end{varwidth}}\\
+\fbox{\begin{varwidth}{\textwidth}
+$-log([H^{+}]) + (-log([OH^{-}])) = -log (K_w)$ 
+\end{varwidth}}
+\hspace{15pt}
+\fbox{\begin{varwidth}{\textwidth}
+$pH + pOH = 14.00$ (at $25 ^{\circ}C$)
+\end{varwidth}}\\
+\fbox{\begin{varwidth}{\textwidth}
+$pK_a = -log(K_a)$
+\end{varwidth}}
+\hspace{10pt}
+\fbox{\begin{varwidth}{\textwidth}
+$pK_b = -log(K_b)$
+\end{varwidth}}
+\hspace{10pt}
+\fbox{\begin{varwidth}{\textwidth}
+$pK_a + pK_b = pK_w = 14.00$ (at $25 ^{\circ}C$)
+\end{varwidth}}
+\begin{center}
+    \includegraphics[width = 0.90\linewidth]{images/pH, pOH.jpeg}
+\end{center}
+%---------------------------------------
+%9 Redox Reactions/ Electrochemistry 
+%---------------------------------------
+\section{Redox Reactions/ Electrochemistry }
+%---------------------------------------
+%9.1 General
+%---------------------------------------
+\subsection{General}
+$\circ$ Reaction where transfers of electrons occur\\
+$\circ$ \textbf{Oxidation}: Lose an electron, oxidation number is increased (reducing agent is oxidized)\\
+$\circ$ \textbf{Reduction}: Gain an electron, oxidation number is reduced (oxidizing agent is reduced)\\
+\begin{center}
+    \includegraphics[width = 0.7\linewidth]{images/Redox_Reaction.jpeg}
+\end{center}
+%---------------------------------------
+%9.2 Balancing Redox Reactions
+%---------------------------------------
+\umbruch
+\subsection{Balancing Redox Reactions}
+\textbf{How to balance redox reactions in acidic aqueous solutions}\\
+\fbox{\begin{varwidth}{\textwidth}
+1. Divide reactions into oxidation half-reaction and reduction half-reaction
+\vspace{1pt}\\
+2. Balance each half-reaction
+\vfill \hspace{10pt}- First, balance elements other than $H$ and $O$
+\vfill \hspace{10pt}- Next, balance $O$ atoms by adding $H_2O$ as needed
+\vfill \hspace{10pt}-Then, balance $H$ atoms by adding $H^{+}$ as needed
+\vfill \hspace{10pt}-Finally, balance charge by adding e's as needed \\
+3. Multiply two half-reactions by integers to equate the electrons lost and gained\\
+4. Add half-reactions and, if possible, cancel specieas appearing on both sides\\
+5. Check to make sure atoms and charges are balanced. 
+
+\end{varwidth}}
+\vspace{3pt}
+
+\textbf{How to balance redox reactions in basic aqueous solutions}\\
+\fbox{\begin{varwidth}{\textwidth}
+1. Balance half-reactions as if they occured in acidic solution (steps 1 and 2)\\
+2. Count number of $H^{+}$ in each half-reaction, and add same number of $OH^{-}$ to each side
+\vfill \hspace{10pt}- Why? Neutralizing $H^{+}$ with $OH^{-}$ 
+\vfill \hspace{10pt}- Equal $H^{+}$ and $OH^{-}$ on same side form $H_2O$
+\vfill \hspace{10pt}- Cancel any $H_2O$ appearing on both sides\\
+3. Multiply two half-reactions by integers to equate the electrons lost and gained\\
+4. Add half-reactions and, if possible, cancel specieas appearing on both sides\\
+5. Check to make sure atoms and charges are balanced. 
+\end{varwidth}}
+%---------------------------------------
+%9.3 Voltaic Cell/Battery
+%---------------------------------------
+\subsection{Voltaic Cell/ Battery}
+\textbf{Voltaic Cell/ Battery}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\circ$ \textbf{Activity series}: any metal is oxidized by metals below it (spontaneous).\\
+$\circ$ \textbf{Components}:\\
+1. \textbf{Electrodes}: solid metals connected to external circuit. Anode loses mass, whilst cathode gains mass (deposition). \\
+2. \textbf{Electrolyte}: liquid with ions that can conduct electrical current\\
+3. \textbf{Salt bridge}: tube containing electrolyte solution facilitating ion migration 
+\end{varwidth}}
+\begin{center}
+    \includegraphics[width = 0.9\linewidth]{images/Voltaic_Cell.jpeg}
+\end{center}
+\begin{minipage}{0.3\linewidth}
+    \textbf{Cell Potentials}\\
+    \fbox{$ 1V = \frac{1.6\cdot 10^{-19} J}{1.6 \cdot 10^{-19} C}$}
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+    \textbf{Cell Voltage at STP (Thermodynamics)}\\
+    \fbox{$E_{cell}^{\circ} = E_{red}^{\circ}$ (cathode) $ E_{red}^{\circ}$ (anode)}
+\end{minipage}\\
+
+\begin{minipage}{0.6\linewidth}
+\textbf{Gibbs Free Energy}\\
+\fbox{\begin{varwidth}{\textwidth}
+$\Delta G^{\circ} = -nFE^{\circ}$ \hspace{15pt} $E^{\circ} = \frac{\Delta G^{\circ}}{-nF} = \frac{-RTln(K)}{-nF} = \frac{RT}{nF}ln(K)$
+\end{varwidth}}\\
+If $E_{cell}^{\circ} > 0, \Delta G^{\circ} < 0 \longrightarrow$ rxn is spontaneous
+\end{minipage}
+\begin{minipage}{0.39\linewidth}
+    $\Delta G^{\circ} \equiv J/mol$ of rxn\\
+    $F = 96485 \frac{C}{mol} \equiv$ Faraday's constant\\
+    $n \equiv$ moles of e's transferred in rxn\\
+    $K \equiv$ Equilibrium constant
+\end{minipage}
+%---------------------------------------
+%10. Appendix
+%---------------------------------------
+\section{Appendix}
+$\circ$ \textbf{Intensive Properties}: Do no depend on the system size or the amount of material. (e.g. temperature, refractive index, density, $E_{cell}^{\circ}$\\
+$\circ$ \textbf{Extensive Properties}: Depend on system size. (e.g. mass, volume, entropy)
+\vspace{3pt}\\
+\textbf{Atoms}\\
+$\circ$ \textbf{Atomic Number}: \# of protons in atom of particular element\\
+$\circ$ \textbf{Isotopes}: Same element with different \# neutrons\\
+$\circ$ \textbf{Mass Number}: \# of protons and neutrons\\
+$\circ$ \textbf{Atomic Mass Scale}: $\prescript{12}{6}{C} \equiv 12u$ \hspace{7pt} $m_p = 1.0073 u$ \hspace{7pt} $m_n = 1.0087 u$ \hspace{7pt} $m_e = 5.486\cdot 10^{-4} u$ \hspace{7pt} $1u = 1.6605 \cdot 10^{-27} kg$\\
+$\circ$ \textbf{Atomic Weight}: Average atomic mass of all isotopes of an element, weighted by their natural abundance in atomic mass units\\
+$\circ$ \textbf{Atomic Mass}: The mass of an atom's electrons, protons and neutron in atomic mass units
+\vspace{3pt}\\
+\textbf{Metathesis and Precipitation Reactions}:
+$\circ$ \textbf{Metathesis}: Two ionic solids dissolve and exchange partners\\
+$\circ$ If cation/ anion pair is strongly attracted, a solid preciptate is formed. 
+
+
+\section{Author's notes}
+I neither guarantee that the following summary is complete nor absolutely correct. Please forward any corrections or suggestions for improvements to joetan@ethz.ch. This summary was written specifically for Prof. David Norris' Chemistry course.
+Should you wish to publish an improved version with your own notes and changes, please make clear that it is not the original version. 
+\\
+Viel Erfolg! Glück brucht mer nur wemers nöd chan. 

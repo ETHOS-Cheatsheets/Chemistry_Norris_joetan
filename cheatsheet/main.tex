@@ -1,14 +1,36 @@
 \documentclass{cheatsheet}
-\usepackage{bm}
-\usepackage{textcomp, mathcomp}
-\usepackage{empheq}
-\usepackage{pbox}
-\usepackage{booktabs}
+\usepackage{blindtext}
+\usepackage{mdframed}
+\usepackage{amsmath, amssymb, mathtools, empheq, physics}
+\usepackage{ragged2e}
 
-\doctitle{... Cheatsheet}
-\author{AUTHOR \\ \vspace*{-0.2em}}
+\include{Setup/Setup}
 
+\doctitle{Chemistry D-MAVT}
+\geometry{a4paper,landscape,left=0.2cm,right=0.2cm, top=0.5cm, bottom=1.5cm}
 \begin{document}
-\section{1. Section}
-	\input{src/1_section/1_subsection.tex}
+
+% max. 10 Seiten
+
+\section{Basics}
+    \input{1_Basics/1.1_Conversions_&_Relations}
+    \input{1_Basics/1.2_Common_Ions}
+    \input{1_Basics/1.3_Trends_In_Periodic_Table_of_Elements}
+\section{Quantum Mechanics}
+    \input{2_Quantum Mechanics/2.1_Basics}
+    \input{2_Quantum Mechanics/2.2_Orbitals}
+\section{Chemical Bonds}
+    \input{3_Chemical Bonds/3.1_Covalent Bonds}
+    \input{3_Chemical Bonds/3.2_Polarity_and_Dipole_Moment}
+    \input{3_Chemical Bonds/3.3_Lewis_Structure}
+    \input{3_Chemical Bonds/3.4_Ionic_Bond}
+    \input{3_Chemical Bonds/3.5_Metallic_Bond}
+\section{Molecule Models}
+    \input{4_Molecule Models/4.1_VSEPR}
+\section{Aggregate States}
+    \input{5_Aggregate States/5.1_Intermolecular_Forces}
+    \input{5_Aggregate States/5.2_Liquids}
+    \input{5_Aggregate States/5.3_Solutions_and_Colligative_Properties}
+    \include{5_Aggregate States/5.4_Osmotic_Pressure}
+
 \end{document}
