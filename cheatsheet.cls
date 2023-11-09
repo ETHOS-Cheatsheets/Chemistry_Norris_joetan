@@ -26,13 +26,24 @@
 \ProvidesClass{cheatsheet}[2020/09/14 LaTeX class for cheatsheets by Micha Bosshart]
 \LoadClass[8pt, a4paper, landscape]{extarticle}
 
+
+%% Font Catalogue: https://tug.org/FontCatalogue/mathfonts.html
+\usepackage{libertine}
+\usepackage{libertinust1math}
+\usepackage[T1]{fontenc}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage[export]{adjustbox}
+\usepackage{color,soul}
+
+
+
 %% packages
 \RequirePackage{multicol}
-\RequirePackage{amsmath}
 \RequirePackage{changepage}
 \RequirePackage{etoolbox} % check ifempty
 \RequirePackage[dvipsnames]{xcolor}
-\newcommand{\customColor}{Peach}
+\newcommand{\customColor}{RoyalBlue}
 \RequirePackage{tcolorbox}
 
 
@@ -42,7 +53,7 @@
 \DeclareOption{onecolumn}{\OptionNotUsed}
 \DeclareOption{twocolumns}{\def\@@colnum{2}}
 \DeclareOption{threecolumns}{\def\@@colnum{3}}
-\setcounter{secnumdepth}{0} % disable counting
+\setcounter{secnumdepth}{3} % disable counting
 \DeclareOption{numerate}{\setcounter{secnumdepth}{3}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}}
 \ProcessOptions\relax
@@ -50,7 +61,7 @@
 %% Header
 \def\@doctitle{}
 \long\def\doctitle#1{\def\@doctitle{#1}}
-\def\@docauthor{}
+\def\@docauthor{Author: joetan}
 \long\def\author#1{\def\@docauthor{#1}}
 
 
@@ -61,9 +72,12 @@
 %% begin and end document
 \AtBeginDocument{%
     \begin{multicols*}{\@@colnum}%
+    \setlength{\columnseprule}{0.1pt}
+    \def\columnseprulecolor{\color{black}}
     \begin{adjustwidth}{\@@leftTextMargin}{\@@rightTextMargin}%
     \Header{\@doctitle}{\@docauthor}
-    \small%
+    \tiny%
+    
 }
 \AtEndDocument{%
     \end{adjustwidth}%
@@ -75,18 +89,19 @@
 \newcommand*{\sectionbox}[1]{%
     \begin{adjustwidth}{-\@@leftTextMargin}{-\@@rightTextMargin}
         \begin{tcolorbox}[%
-                        arc=1mm,%
+                        arc=0.5mm,%
                         colback=\customColor,%
                         boxrule=0pt,%
                         valign=center,%
-                        height from=5mm to 5cm,%
+                        height = 0.25cm,%
                         top=0mm,%
                         bottom=0mm,%
                         left=0.2mm,%
                         right=0.2mm,%
-                        after skip = 0.01mm,%
-                        before skip = 0.01mm,%
-                        fontupper=\color{white}%
+                        after skip = 0.001mm,%
+                        before skip = 0.001mm,%
+                        fontupper=\small \color{white}%
+                        
                         ]%
                         \textbf{#1}%
         \end{tcolorbox}%
@@ -104,18 +119,18 @@
 \newcommand*{\subsectionbox}[1]{%
     \begin{adjustwidth}{-\@@leftTextMargin}{-\@@rightTextMargin}
         \begin{tcolorbox}[%
-                        arc=1mm,%
-                        colback=\customColor!60,%
+                        arc=0.5mm,%
+                        colback=Cerulean,%
                         boxrule=0pt,%
                         valign=center,%
-                        height from=5mm to 5cm,%
+                        height = 0.25cm,%
                         top=0mm,%
                         bottom=0mm,%
                         left=0.2mm,%
                         right=0.2mm,%
-                        after skip = 0.01mm,%
-                        before skip = 0.01mm,%
-                        fontupper=\color{white}%
+                        after skip = 0.001mm,%
+                        before skip = 0.001mm,%
+                        fontupper=\small \color{white}
                         ]%
                         \textbf{#1}%
         \end{tcolorbox}%
@@ -133,8 +148,8 @@
 \newcommand*{\subsubsectionbox}[1]{%
     \begin{adjustwidth}{-\@@leftTextMargin}{-\@@rightTextMargin}
         \begin{tcolorbox}[%
-                        arc=1mm,% corner radius
-                        colback=\customColor!30,%
+                        arc=0.5mm,% corner radius
+                        colback=\customColor!50,%
                         boxrule=0pt,% border box
                         valign=center,% vertically center title
                         height from=5mm to 5cm,%
@@ -144,7 +159,7 @@
                         right=0.2mm,%
                         after skip = 0.01mm,%
                         before skip = 0.01mm,%
-                        fontupper=\color{black}%
+                        fontupper=\small%
                         ]%
                         \textbf{#1}%
         \end{tcolorbox}%
@@ -163,24 +178,24 @@
 \newcommand{\Header}[3][Template by Micha Bosshart]{%
     \begin{adjustwidth}{-\@@leftTextMargin}{-\@@rightTextMargin}
         \begin{tcolorbox}[%
-            arc=1mm,%
+            arc=0.5mm,%
             colframe=\customColor,%
             colback=\customColor,%
             boxrule=0pt,%
             toptitle=0mm,%
-            bottomtitle=1mm,%
+            bottomtitle=0.5mm,%
             right=0mm,%
             left=0mm,%
-            fontupper=\color{white},%
+            fontupper=\small \color{white},%
             after skip = 0.01mm,%
             top=-1mm,%
             bottom=0mm,%
-            title= \huge \center \textbf{#2} \par%
+            title= \normalsize \center \textbf{#2} \par%
             \ifstrempty{#3}{}{
-                \center \large \vskip1mm #3 %
+                \center \normalsize #3 %
             }
         ]%
-        \center \small Version: \today \vskip1mm \tiny #1
+        \center \tiny  \today, \hspace{1pt} #1
         \end{tcolorbox}%
     \end{adjustwidth}
 }
@@ -189,12 +204,21 @@
 % PRE: #1 math expression
 \newcommand{\mathbox}[1]{%
     \vskip4pt%
+    %\colorbox{#2}%
     \begin{center}%
         \boxed{%
             #1%
         }%
     \end{center}%
-    \vskip4pt%
+    \vspace{-3mm}
+    
+}
+
+\newcommand{\hlmath}[2]{%
+    \colorbox{#1}%
+    { %
+        $#2$%
+    }%
 }
 
 %% MATLAB
@@ -206,10 +230,16 @@
     \end{center}%
 }
 
+\newcommand{\hlfancy}[2]{%
+    \sethlcolor{#1}%
+    \hl{#2}%
+}
+
 \renewcommand{\normalsize}{\fontsize{8}{9}\selectfont} % changes normalsize to small % dirty
+\renewcommand{\tiny} {\fontsize{4pt}{3.6pt}\selectfont}
 \renewcommand{\familydefault}{\sfdefault}
 
-\setlength{\parindent}{0.0cm}
+\setlength{\parindent}{0cm}
 \setlength\columnsep{0.5mm}
 \setlength{\columnseprule}{0pt}
 \setlength{\textwidth}{597pt} % max 597pt

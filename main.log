@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  9 NOV 2023 08:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  9 NOV 2023 08:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -35,34 +35,382 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \belowcaptionskip=\skip49
 \bibindent=\dimen141
 )
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertine/libertine.sty
+Package: libertine 2022/09/12 (Bob Tennent) Supports Libertine and Biolinum fon
+ts for all LaTeX engines.
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count193
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \oldstylenums on input line 483.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertine/LinLibertine_I.tex))
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertinust1math/libertinust1math.sty
+Package: libertinust1math 2022/01/05 v2.0.1---latex support for LibertinusT1Mat
+h (msharpe)
+(/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count194
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen142
+))
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count195
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count196
+\leftroot@=\count197
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count198
+\DOTSCASE@=\count199
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count266
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count267
+\dotsspace@=\muskip16
+\c@parentequation=\count268
+\dspbrk@lvl=\count269
+\tag@help=\toks19
+\row@=\count270
+\column@=\count271
+\maxfields@=\count272
+\andhelp@=\toks20
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks21
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+amsthm NOT loaded
+Now handling font encoding LS1 ...
+... no UTF-8 mapping file for font encoding LS1
+Now handling font encoding LS2 ...
+... no UTF-8 mapping file for font encoding LS2
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 85.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 85.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/libertinust1math/m/it on input lin
+e 85.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 85.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/libertinust1math/m/it on input lin
+e 85.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 86.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 86.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/libertinust1math/m/n on input line 
+86.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 86.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/libertinust1math/m/n on input line
+ 86.
+\symsymbolsbb=\mathgroup4
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 88.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS2' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 88.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS2/libertinust1mathsym/m/n on input l
+ine 88.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS2' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 88.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS2/libertinust1mathsym/m/n on input l
+ine 88.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 89.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 8
+9.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/libertinust1mathex/m/n on input li
+ne 89.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 89.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/libertinust1mathex/m/n on input li
+ne 89.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 90.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> LS1/libertinust1mathsf/m/n on input li
+ne 90.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> LS1/libertinust1mathsf/m/n on input l
+ine 90.
+LaTeX Font Info:    Redeclaring math alphabet \mathsfbf on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbf' in version `normal'
+(Font)                  LS1/libertinust1mathsf/b/n --> LS1/libertinust1mathsf/b
+/n on input line 99.
+LaTeX Font Info:    Overwriting math alphabet `\mathsfbf' in version `bold'
+(Font)                  LS1/libertinust1mathsf/b/n --> LS1/libertinust1mathsf/b
+/n on input line 99.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/libertinust1math/m/it --> LS1/libertinust1math/b/it
+ on input line 101.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/libertinust1math/m/n --> LS1/libertinust1math/b/n o
+n input line 102.
+\symbold-operators=\mathgroup5
+\symbold-letters=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 107.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  LS1/libertinust1mathsf/m/n --> LS1/libertinust1mathsf/b
+/n on input line 135.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 147.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  U/stixcal/m/n --> U/stixcal/b/n on input line 148.
+\tx@tA=\toks23
+\tx@tB=\toks24
+\tx@su=\read2
+\tx@sbptoks=\toks25
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 516.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 813.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 814.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 815.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 816.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 817.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 818.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 819.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 820.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 822.
+LaTeX Font Info:    Redeclaring math accent \check on input line 823.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 831.
+LaTeX Info: Redefining \vdots on input line 1241.
+LaTeX Info: Redefining \cdots on input line 1246.
+LaTeX Info: Redefining \not on input line 1488.
+) (/opt/texlive/texdir/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF 
+on input line 112.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertine/T1LinuxLibertineT-TLF.fd
+File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
+nuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 112.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks26
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks27
+\labelindent=\skip53
+\enit@outerparindent=\dimen151
+\enit@toks=\toks28
+\enit@inbox=\box53
+\enit@count@id=\count273
+\enitdp@description=\count274
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box54
+)
+\tc@llx=\dimen154
+\tc@lly=\dimen155
+\tc@urx=\dimen156
+\tc@ury=\dimen157
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen158
+\adjbox@Height=\dimen159
+\adjbox@Depth=\dimen160
+\adjbox@Totalheight=\dimen161
+\adjbox@pwidth=\dimen162
+\adjbox@pheight=\dimen163
+\adjbox@pdepth=\dimen164
+\adjbox@ptotalheight=\dimen165
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count275
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box55
+\sift@deathcycles=\count276
+\@vwid@loff=\dimen166
+\@vwid@roff=\dimen167
+))
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/opt/texlive/texdir/texmf-dist/tex/generic/soul/soul.sty
+Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/soul/soul-ori.sty
+Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
+\SOUL@word=\toks29
+\SOUL@lasttoken=\toks30
+\SOUL@syllable=\toks31
+\SOUL@cmds=\toks32
+\SOUL@buffer=\toks33
+\SOUL@token=\toks34
+\SOUL@syllgoal=\dimen168
+\SOUL@syllwidth=\dimen169
+\SOUL@charkern=\dimen170
+\SOUL@hyphkern=\dimen171
+\SOUL@dimen=\dimen172
+\SOUL@dimeni=\dimen173
+\SOUL@minus=\count277
+\SOUL@comma=\count278
+\SOUL@apo=\count279
+\SOUL@grave=\count280
+\SOUL@spaceskip=\skip54
+\SOUL@ttwidth=\dimen174
+\SOUL@uldp=\dimen175
+\SOUL@ulht=\dimen176
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count193
-\mult@box=\box51
-\multicol@leftmargin=\dimen142
-\c@unbalance=\count194
-\c@collectmore=\count195
-\doublecol@number=\count196
-\multicoltolerance=\count197
-\multicolpretolerance=\count198
-\full@width=\dimen143
-\page@free=\dimen144
-\premulticols=\dimen145
-\postmulticols=\dimen146
-\multicolsep=\skip50
-\multicolbaselineskip=\skip51
-\partial@page=\box52
-\last@line=\box53
-\maxbalancingoverflow=\dimen147
-\mult@rightbox=\box54
-\mult@grightbox=\box55
-\mult@firstbox=\box56
-\mult@gfirstbox=\box57
-\@tempa=\box58
-\@tempa=\box59
-\@tempa=\box60
-\@tempa=\box61
-\@tempa=\box62
+\c@tracingmulticols=\count281
+\mult@box=\box56
+\multicol@leftmargin=\dimen177
+\c@unbalance=\count282
+\c@collectmore=\count283
+\doublecol@number=\count284
+\multicoltolerance=\count285
+\multicolpretolerance=\count286
+\full@width=\dimen178
+\page@free=\dimen179
+\premulticols=\dimen180
+\postmulticols=\dimen181
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box57
+\last@line=\box58
+\maxbalancingoverflow=\dimen182
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
@@ -94,92 +442,26 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
-\c@minrows=\count199
-\c@columnbadness=\count266
-\c@finalcolumnbadness=\count267
-\last@try=\dimen148
-\multicolovershoot=\dimen149
-\multicolundershoot=\dimen150
-\mult@nat@firstbox=\box94
-\colbreak@box=\box95
-\mc@col@check@num=\count268
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip52
-
-For additional information on amsmath, use the `?' option.
-(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen151
-))
-(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen152
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count269
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count270
-\leftroot@=\count271
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count272
-\DOTSCASE@=\count273
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box96
-\strutbox@=\box97
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen153
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count274
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count275
-\dotsspace@=\muskip16
-\c@parentequation=\count276
-\dspbrk@lvl=\count277
-\tag@help=\toks17
-\row@=\count278
-\column@=\count279
-\maxfields@=\count280
-\andhelp@=\toks18
-\eqnshift@=\dimen154
-\alignsep@=\dimen155
-\tagshift@=\dimen156
-\tagwidth@=\dimen157
-\totwidth@=\dimen158
-\lineht@=\dimen159
-\@envbody=\toks19
-\multlinegap=\skip53
-\multlinetaggap=\skip54
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count287
+\c@columnbadness=\count288
+\c@finalcolumnbadness=\count289
+\last@try=\dimen183
+\multicolovershoot=\dimen184
+\multicolundershoot=\dimen185
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count290
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count281
-\cp@tempcnt=\count282
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count283
+\c@cp@cntr=\count291
+\cp@tempcnt=\count292
+LaTeX Info: Redefining \checkoddpage on input line 59.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
@@ -188,10 +470,8 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-)
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
@@ -212,12 +492,12 @@ Package: tcolorbox 2023/02/12 version 6.0.1 text color boxes
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks21
-\pgfutil@tempdima=\dimen160
-\pgfutil@tempdimb=\dimen161
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen186
+\pgfutil@tempdimb=\dimen187
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box98
+\pgfutil@abb=\box101
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -226,59 +506,38 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 107.
-)
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
-)
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltere
 d.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks38
 ))
-\pgf@x=\dimen164
-\pgf@y=\dimen165
-\pgf@xa=\dimen166
-\pgf@ya=\dimen167
-\pgf@xb=\dimen168
-\pgf@yb=\dimen169
-\pgf@xc=\dimen170
-\pgf@yc=\dimen171
-\pgf@xd=\dimen172
-\pgf@yd=\dimen173
+\pgf@x=\dimen188
+\pgf@y=\dimen189
+\pgf@xa=\dimen190
+\pgf@ya=\dimen191
+\pgf@xb=\dimen192
+\pgf@yb=\dimen193
+\pgf@xc=\dimen194
+\pgf@yc=\dimen195
+\pgf@xd=\dimen196
+\pgf@yd=\dimen197
 \w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count284
-\c@pgf@countb=\count285
-\c@pgf@countc=\count286
-\c@pgf@countd=\count287
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count288
+\r@pgf@reada=\read3
+\c@pgf@counta=\count293
+\c@pgf@countb=\count294
+\c@pgf@countc=\count295
+\c@pgf@countd=\count296
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count297
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
@@ -295,8 +554,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code
 .tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count289
-\pgfsyssoftpath@bigbuffer@items=\count290
+\pgfsyssoftpath@smallbuffer@items=\count298
+\pgfsyssoftpath@bigbuffer@items=\count299
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code
 .tex
@@ -308,12 +567,12 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen174
-\pgfmath@count=\count291
-\pgfmath@box=\box99
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@dimen=\dimen198
+\pgfmath@count=\count300
+\pgfmath@box=\box102
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 
@@ -335,58 +594,58 @@ e.tex)
 ithmetics.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count292
+\c@pgfmathroundto@lastzeros=\count301
 ))
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.t
 ex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen175
-\pgf@picmaxx=\dimen176
-\pgf@picminy=\dimen177
-\pgf@picmaxy=\dimen178
-\pgf@pathminx=\dimen179
-\pgf@pathmaxx=\dimen180
-\pgf@pathminy=\dimen181
-\pgf@pathmaxy=\dimen182
-\pgf@xx=\dimen183
-\pgf@xy=\dimen184
-\pgf@yx=\dimen185
-\pgf@yy=\dimen186
-\pgf@zx=\dimen187
-\pgf@zy=\dimen188
+\pgf@picminx=\dimen199
+\pgf@picmaxx=\dimen256
+\pgf@picminy=\dimen257
+\pgf@picmaxy=\dimen258
+\pgf@pathminx=\dimen259
+\pgf@pathmaxx=\dimen260
+\pgf@pathminy=\dimen261
+\pgf@pathmaxy=\dimen262
+\pgf@xx=\dimen263
+\pgf@xy=\dimen264
+\pgf@yx=\dimen265
+\pgf@yy=\dimen266
+\pgf@zx=\dimen267
+\pgf@zy=\dimen268
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct
 .code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen189
-\pgf@path@lasty=\dimen190
+\pgf@path@lastx=\dimen269
+\pgf@path@lasty=\dimen270
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.cod
 e.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen191
-\pgf@shorten@start@additional=\dimen192
+\pgf@shorten@end@additional=\dimen271
+\pgf@shorten@start@additional=\dimen272
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.t
 ex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box100
-\pgf@hbox=\box101
-\pgf@layerbox@main=\box102
-\pgf@picture@serial@count=\count293
+\pgfpic=\box103
+\pgf@hbox=\box104
+\pgf@layerbox@main=\box105
+\pgf@picture@serial@count=\count302
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.
 code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen193
+\pgflinewidth=\dimen273
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformatio
 ns.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen194
-\pgf@pt@y=\dimen195
-\pgf@pt@temp=\dimen196
+\pgf@pt@x=\dimen274
+\pgf@pt@y=\dimen275
+\pgf@pt@temp=\dimen276
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.te
 x
@@ -403,14 +662,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.t
 ex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen197
+\pgfarrowsep=\dimen277
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.te
 x
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen198
-\pgf@sys@shading@range@num=\count294
-\pgf@shadingcount=\count295
+\pgf@max=\dimen278
+\pgf@sys@shading@range@num=\count303
+\pgf@shadingcount=\count304
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.te
 x
@@ -419,7 +678,7 @@ File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code
 .tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box103
+\pgfexternal@startupbox=\box106
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.t
 ex
@@ -439,7 +698,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
 x
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box104
+\pgfnodeparttextbox=\box107
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -447,17 +706,17 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-6
 5.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen199
-\pgf@nodesepend=\dimen256
+\pgf@nodesepstart=\dimen279
+\pgf@nodesepend=\dimen280
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-1
 8.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 )) (/opt/texlive/texdir/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks32
-\verbatim@line=\toks33
-\verbatim@in@stream=\read3
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read4
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -465,144 +724,421 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/opt/texlive/texdir/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box105
-\tcb@upperbox=\box106
-\tcb@lowerbox=\box107
-\tcb@phantombox=\box108
-\c@tcbbreakpart=\count296
-\c@tcblayer=\count297
-\c@tcolorbox@number=\count298
-\tcb@temp=\box109
-\tcb@temp=\box110
-\tcb@temp=\box111
+\tcb@titlebox=\box108
+\tcb@upperbox=\box109
+\tcb@lowerbox=\box110
+\tcb@phantombox=\box111
+\c@tcbbreakpart=\count305
+\c@tcblayer=\count306
+\c@tcolorbox@number=\count307
 \tcb@temp=\box112
+\tcb@temp=\box113
+\tcb@temp=\box114
+\tcb@temp=\box115
 ))
 (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count308
+\Gm@cntv=\count309
+\c@Gm@tempcnt=\count310
+\Gm@bindingoffset=\dimen281
+\Gm@wd@mp=\dimen282
+\Gm@odd@mp=\dimen283
+\Gm@even@mp=\dimen284
+\Gm@layoutwidth=\dimen285
+\Gm@layoutheight=\dimen286
+\Gm@layouthoffset=\dimen287
+\Gm@layoutvoffset=\dimen288
+\Gm@dimlist=\toks47
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(/opt/texlive/texdir/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count311
+\c@Blindtext=\count312
+\c@blind@countparstart=\count313
+\blind@countxx=\count314
+\blindtext@numBlindtext=\count315
+\blind@countyy=\count316
+\c@blindlist=\count317
+\c@blindlistlevel=\count318
+\c@blindlist@level=\count319
+\blind@listitem=\count320
+\c@blind@listcount=\count321
+\c@blind@levelcount=\count322
+\blind@mathformula=\count323
+\blind@Mathformula=\count324
+\c@blind@randomcount=\count325
+\c@blind@randommax=\count326
+\c@blind@pangramcount=\count327
+\c@blind@pangrammax=\count328
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\Gm@cnth=\count299
-\Gm@cntv=\count300
-\c@Gm@tempcnt=\count301
-\Gm@bindingoffset=\dimen257
-\Gm@wd@mp=\dimen258
-\Gm@odd@mp=\dimen259
-\Gm@even@mp=\dimen260
-\Gm@layoutwidth=\dimen261
-\Gm@layoutheight=\dimen262
-\Gm@layouthoffset=\dimen263
-\Gm@layoutvoffset=\dimen264
-\Gm@dimlist=\toks34
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup4
-\symboldletters=\mathgroup5
-\symboldsymbols=\mathgroup6
-Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/mathcomp/mathcomp.sty
-Package: mathcomp 2001/01/07 v0.1f (TBo)
-\symTC=\mathgroup7
-LaTeX Font Info:    Overwriting symbol font `TC' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 25.
-LaTeX Font Info:    Redeclaring math symbol \dagger on input line 47.
-LaTeX Font Info:    Redeclaring math symbol \ddagger on input line 48.
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/empheq.sty
-Package: empheq 2017/03/31 v2.15 Emphasizing equations
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count329
+\l__pdf_internal_box=\box116
+))
+Package: xparse 2023-02-02 L3 Experimental document command parser
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
+
+(/opt/texlive/texdir/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/opt/texlive/texdir/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\c@abspage=\count330
+Package zref Info: New property: abspage on input line 65.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip57
+\c@mdf@globalstyle@cnt=\count331
+\mdf@skipabove@length=\skip58
+\mdf@skipbelow@length=\skip59
+\mdf@leftmargin@length=\skip60
+\mdf@rightmargin@length=\skip61
+\mdf@innerleftmargin@length=\skip62
+\mdf@innerrightmargin@length=\skip63
+\mdf@innertopmargin@length=\skip64
+\mdf@innerbottommargin@length=\skip65
+\mdf@splittopskip@length=\skip66
+\mdf@splitbottomskip@length=\skip67
+\mdf@outermargin@length=\skip68
+\mdf@innermargin@length=\skip69
+\mdf@linewidth@length=\skip70
+\mdf@innerlinewidth@length=\skip71
+\mdf@middlelinewidth@length=\skip72
+\mdf@outerlinewidth@length=\skip73
+\mdf@roundcorner@length=\skip74
+\mdf@footenotedistance@length=\skip75
+\mdf@userdefinedwidth@length=\skip76
+\mdf@needspace@length=\skip77
+\mdf@frametitleaboveskip@length=\skip78
+\mdf@frametitlebelowskip@length=\skip79
+\mdf@frametitlerulewidth@length=\skip80
+\mdf@frametitleleftmargin@length=\skip81
+\mdf@frametitlerightmargin@length=\skip82
+\mdf@shadowsize@length=\skip83
+\mdf@extratopheight@length=\skip84
+\mdf@subtitleabovelinewidth@length=\skip85
+\mdf@subtitlebelowlinewidth@length=\skip86
+\mdf@subtitleaboveskip@length=\skip87
+\mdf@subtitlebelowskip@length=\skip88
+\mdf@subtitleinneraboveskip@length=\skip89
+\mdf@subtitleinnerbelowskip@length=\skip90
+\mdf@subsubtitleabovelinewidth@length=\skip91
+\mdf@subsubtitlebelowlinewidth@length=\skip92
+\mdf@subsubtitleaboveskip@length=\skip93
+\mdf@subsubtitlebelowskip@length=\skip94
+\mdf@subsubtitleinneraboveskip@length=\skip95
+\mdf@subsubtitleinnerbelowskip@length=\skip96
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box117
+\mdf@footnotebox=\box118
+\mdf@splitbox@one=\box119
+\mdf@splitbox@two=\box120
+\mdf@splitbox@save=\box121
+\mdfsplitboxwidth=\skip97
+\mdfsplitboxtotalwidth=\skip98
+\mdfsplitboxheight=\skip99
+\mdfsplitboxdepth=\skip100
+\mdfsplitboxtotalheight=\skip101
+\mdfframetitleboxwidth=\skip102
+\mdfframetitleboxtotalwidth=\skip103
+\mdfframetitleboxheight=\skip104
+\mdfframetitleboxdepth=\skip105
+\mdfframetitleboxtotalheight=\skip106
+\mdffootnoteboxwidth=\skip107
+\mdffootnoteboxtotalwidth=\skip108
+\mdffootnoteboxheight=\skip109
+\mdffootnoteboxdepth=\skip110
+\mdffootnoteboxtotalheight=\skip111
+\mdftotallinewidth=\skip112
+\mdfboundingboxwidth=\skip113
+\mdfboundingboxtotalwidth=\skip114
+\mdfboundingboxheight=\skip115
+\mdfboundingboxdepth=\skip116
+\mdfboundingboxtotalheight=\skip117
+\mdf@freevspace@length=\skip118
+\mdf@horizontalwidthofbox@length=\skip119
+\mdf@verticalmarginwhole@length=\skip120
+\mdf@horizontalspaceofbox=\skip121
+\mdfsubtitleheight=\skip122
+\mdfsubsubtitleheight=\skip123
+\c@mdfcountframes=\count332
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count333
+\c@mdf@env@i=\count334
+\c@mdf@env@ii=\count335
+\c@mdf@zref@counter=\count336
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 142.
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 44.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 45.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 56
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 57.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 58.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 59.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 11
+9.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 126.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 127.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 163.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 167.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 173.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 175.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 223
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 224.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 231.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 232.
+
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 247.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 248.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 254.
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count302
-\calc@Bcount=\count303
-\calc@Adimen=\dimen265
-\calc@Bdimen=\dimen266
-\calc@Askip=\skip55
-\calc@Bskip=\skip56
+\calc@Acount=\count337
+\calc@Bcount=\count338
+\calc@Adimen=\dimen289
+\calc@Bdimen=\dimen290
+\calc@Askip=\skip124
+\calc@Bskip=\skip125
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count304
-\calc@Cskip=\skip57
+\calc@Ccount=\count339
+\calc@Cskip=\skip126
 )
-\g_MT_multlinerow_int=\count305
-\l_MT_multwidth_dim=\dimen267
-\origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen268
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen269
-\l_MT_above_intertext_sep=\dimen270
-\l_MT_below_intertext_sep=\dimen271
-\l_MT_above_shortintertext_sep=\dimen272
-\l_MT_below_shortintertext_sep=\dimen273
-\xmathstrut@box=\box113
-\xmathstrut@dim=\dimen274
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\l_EQ_equationtype_int=\count306
-\l_EQ_alignmentmode_int=\count307
-\l_EQ_totalwidth_dim=\dimen275
-\l_EQ_displaywidth_dim=\dimen276
-\l_EQ_temp_linewidth_dim=\dimen277
-\l_EQ_linewidth_dim=\dimen278
-\EmphEqdelimitershortfall=\dimen279
-\EmphEqdelimiterfactor=\count308
-\g_EQ_toptag_height_dim=\dimen280
-\g_EQ_bottomtag_depth_dim=\dimen281
-\g_EQ_toprow_height_dim=\dimen282
-\g_EQ_bottomrow_depth_dim=\dimen283
-\g_EQ_widesttag_dim=\dimen284
-\EQ_mathdisplay_box=\box114
-\EQ_tag_box=\box115
-\g_EQ_temprow_int=\count309
+\g_MT_multlinerow_int=\count340
+\l_MT_multwidth_dim=\dimen291
+\origjot=\skip127
+\l_MT_shortvdotswithinadjustabove_dim=\dimen292
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen293
+\l_MT_above_intertext_sep=\dimen294
+\l_MT_below_intertext_sep=\dimen295
+\l_MT_above_shortintertext_sep=\dimen296
+\l_MT_below_shortintertext_sep=\dimen297
+\xmathstrut@box=\box122
+\xmathstrut@dim=\dimen298
 )
-(/opt/texlive/texdir/texmf-dist/tex/latex/pbox/pbox.sty
-Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+(/opt/texlive/texdir/texmf-dist/tex/latex/mathtools/empheq.sty
+Package: empheq 2017/03/31 v2.15 Emphasizing equations
+\l_EQ_equationtype_int=\count341
+\l_EQ_alignmentmode_int=\count342
+\l_EQ_totalwidth_dim=\dimen299
+\l_EQ_displaywidth_dim=\dimen300
+\l_EQ_temp_linewidth_dim=\dimen301
+\l_EQ_linewidth_dim=\dimen302
+\EmphEqdelimitershortfall=\dimen303
+\EmphEqdelimiterfactor=\count343
+\g_EQ_toptag_height_dim=\dimen304
+\g_EQ_bottomtag_depth_dim=\dimen305
+\g_EQ_toprow_height_dim=\dimen306
+\g_EQ_bottomrow_depth_dim=\dimen307
+\g_EQ_widesttag_dim=\dimen308
+\EQ_mathdisplay_box=\box123
+\EQ_tag_box=\box124
+\g_EQ_temprow_int=\count344
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+)
+(/opt/texlive/texdir/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/02/25 v3.4 ragged2e Package
+\CenteringLeftskip=\skip128
+\RaggedLeftLeftskip=\skip129
+\RaggedRightLeftskip=\skip130
+\CenteringRightskip=\skip131
+\RaggedLeftRightskip=\skip132
+\RaggedRightRightskip=\skip133
+\CenteringParfillskip=\skip134
+\RaggedLeftParfillskip=\skip135
+\RaggedRightParfillskip=\skip136
+\JustifyingParfillskip=\skip137
+\CenteringParindent=\skip138
+\RaggedLeftParindent=\skip139
+\RaggedRightParindent=\skip140
+\JustifyingParindent=\skip141
+)
 
-(/opt/texlive/texdir/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 7.
+
+(./Setup/Setup.tex)
+LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF o
+n input line 11.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
+File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
+uxBiolinumT-TLF.
 )
-\pb@xlen=\skip59
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen285
-\lightrulewidth=\dimen286
-\cmidrulewidth=\dimen287
-\belowrulesep=\dimen288
-\belowbottomsep=\dimen289
-\aboverulesep=\dimen290
-\abovetopsep=\dimen291
-\cmidrulesep=\dimen292
-\cmidrulekern=\dimen293
-\defaultaddspace=\dimen294
-\@cmidla=\count310
-\@cmidlb=\count311
-\@aboverulesep=\dimen295
-\@belowrulesep=\dimen296
-\@thisruleclass=\count312
-\@lastruleclass=\count313
-\@thisrulewidth=\dimen297
-)
-(/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
-\l__pdf_internal_box=\box116
-)
-(./main.aux)
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 11.
+
+(./main.aux (./5_Aggregate States/5.4_Osmotic_Pressure.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -619,20 +1155,45 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for LS1/libertinust1math/m/n on input lin
+e 11.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1math on
+ input line 11.
 
-(/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertinust1math/ls1libertinust1math.
+fd
+File: ls1libertinust1math.fd 2016/03/23 Fontinst v1.933 font definitions for LS
+1/libertinust1math.
+)
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for LS2/libertinust1mathsym/m/n on input 
+line 11.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathsym
+ on input line 11.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertinust1math/ls2libertinust1maths
+ym.fd
+File: ls2libertinust1mathsym.fd 2015/04/17 v1.1.2-latex LibertinusT1Mathsym LS2
+ font definitions
+)
+LaTeX Font Info:    ... okay on input line 11.
+\c@mv@tabular=\count345
+\c@mv@boldtabular=\count346
+LaTeX Info: Command `\dddot' is already robust on input line 11.
+LaTeX Info: Command `\ddddot' is already robust on input line 11.
+ (/opt/texlive/texdir/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count315
-\scratchdimen=\dimen298
-\scratchbox=\box117
-\nofMPsegments=\count316
-\nofMParguments=\count317
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count318
-\MPscratchDim=\dimen299
-\MPnumerator=\count319
-\makeMPintoPDFobject=\count320
-\everyMPtoPDFconversion=\toks36
+\scratchcounter=\count347
+\scratchdimen=\dimen309
+\scratchbox=\box125
+\nofMPsegments=\count348
+\nofMParguments=\count349
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen310
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
+\everyMPtoPDFconversion=\toks49
 ) (/opt/texlive/texdir/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -642,23 +1203,30 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 11.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 11.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 4.0pt on input line 11.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(0.28436pt, 844.47812pt, 0.28436pt)
-* v-part:(T,H,B)=(0.28436pt, 595.8008pt, 1.42271pt)
+* modes: landscape 
+* h-part:(L,W,R)=(5.69046pt, 833.66592pt, 5.69046pt)
+* v-part:(T,H,B)=(14.22636pt, 540.60239pt, 42.67912pt)
 * \paperwidth=845.04684pt
 * \paperheight=597.50787pt
-* \textwidth=844.47812pt
-* \textheight=595.8008pt
-* \oddsidemargin=-71.98563pt
-* \evensidemargin=-71.98563pt
-* \topmargin=-108.98563pt
+* \textwidth=833.66592pt
+* \textheight=540.60239pt
+* \oddsidemargin=-66.57953pt
+* \evensidemargin=-66.57953pt
+* \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -676,26 +1244,617 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\Hy@linkcounter=\count321
-(./src/1_section/1_subsection.tex) [1
+\Hy@linkcounter=\count353
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 15.
+(./1_Basics/1.1_Conversions_&_Relations.tex
+LaTeX Font Info:    Trying to load font information for TS1+LinuxBiolinumT-TLF 
+on input line 4.
 
-{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux
-) ) 
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.fd
+File: TS1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/L
+inuxBiolinumT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Calculating math sizes for size <4> on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex 
+on input line 4.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertinust1math/ls2libertinust1mathe
+x.fd
+File: ls2libertinust1mathex.fd 2016/03/15 v1.0.0-latex LibertinusMath extension
+s LS2 font definitions
+)
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb 
+on input line 4.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/libertinust1math/ls1libertinust1mathb
+b.fd
+File: ls1libertinust1mathbb.fd 2016/08/22 latex LibertinusT1Mathbb LS1 font def
+initions
+)
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 4.0pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 3.20001pt on input line 4.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 2.59998pt on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ (/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(/opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+(./1_Basics/1.2_Common_Ions.tex
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 4.0pt on input line 4.
+<images/common_anions.jpeg, id=4, 1566.85374pt x 854.19125pt>
+File: images/common_anions.jpeg Graphic file (type jpg)
+<use images/common_anions.jpeg>
+Package pdftex.def Info: images/common_anions.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 101.60239pt x 55.381pt.
+<images/common _cations.jpeg, id=5, 1494.58376pt x 1155.31625pt>
+File: images/common _cations.jpeg Graphic file (type jpg)
+<use images/common _cations.jpeg>
+Package pdftex.def Info: images/common _cations.jpeg  used on input line 11.
+(pdftex.def)             Requested size: 101.60239pt x 78.53578pt.
+)
+(./1_Basics/1.3_Trends_In_Periodic_Table_of_Elements.tex
+Overfull \hbox (2.2126pt too wide) in paragraph at lines 2--1
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+<images/PSE.jpeg, id=6, 1606.0pt x 885.3075pt>
+File: images/PSE.jpeg Graphic file (type jpg)
+<use images/PSE.jpeg>
+Package pdftex.def Info: images/PSE.jpeg  used on input line 15.
+(pdftex.def)             Requested size: 83.9754pt x 46.28076pt.
+<images/Groups_PSE.jpeg, id=7, 1389.19pt x 336.25626pt>
+File: images/Groups_PSE.jpeg Graphic file (type jpg)
+<use images/Groups_PSE.jpeg>
+Package pdftex.def Info: images/Groups_PSE.jpeg  used on input line 16.
+(pdftex.def)             Requested size: 71.84651pt x 17.38844pt.
+)
+Overfull \hbox (4.2818pt too wide) in paragraph at lines 2--19
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--19
+
+ []
+
+(./2_Quantum Mechanics/2.1_Basics.tex
+Overfull \hbox (2.6785pt too wide) in paragraph at lines 27--27
+ [][] 
+ []
+
+) (./2_Quantum Mechanics/2.2_Orbitals.tex
+Overfull \hbox (7.68774pt too wide) in paragraph at lines 2--1
+[]$[]$ $[]$ $[]$ $[]$
+ []
+
+<images/energy_transition_.jpeg, id=8, 1331.97626pt x 1011.78pt>
+File: images/energy_transition_.jpeg Graphic file (type jpg)
+<use images/energy_transition_.jpeg>
+Package pdftex.def Info: images/energy_transition_.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 89.15875pt x 67.71326pt.
+<images/Orbitals.jpeg, id=9, 1575.8875pt x 1232.605pt>
+File: images/Orbitals.jpeg Graphic file (type jpg)
+<use images/Orbitals.jpeg>
+Package pdftex.def Info: images/Orbitals.jpeg  used on input line 24.
+(pdftex.def)             Requested size: 92.89252pt x 72.65535pt.
+<images/orbital_shapes.jpg, id=10, 1409.265pt x 827.09pt>
+File: images/orbital_shapes.jpg Graphic file (type jpg)
+<use images/orbital_shapes.jpg>
+Package pdftex.def Info: images/orbital_shapes.jpg  used on input line 27.
+(pdftex.def)             Requested size: 81.28027pt x 47.69234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--35
+[][]
+ []
+
+
+Overfull \hbox (4.28178pt too wide) in paragraph at lines 2--36
+[]$[]$ $[]$ 
+ []
+
+<images/Quantum_numbers_up_to_n_4.jpeg, id=11, 1509.64pt x 822.07124pt>
+File: images/Quantum_numbers_up_to_n_4.jpeg Graphic file (type jpg)
+<use images/Quantum_numbers_up_to_n_4.jpeg>
+Package pdftex.def Info: images/Quantum_numbers_up_to_n_4.jpeg  used on input l
+ine 38.
+(pdftex.def)             Requested size: 124.41096pt x 67.7364pt.
+<images/PSE_Quantum_Numbers.jpeg, id=12, 1544.77126pt x 505.89pt>
+File: images/PSE_Quantum_Numbers.jpeg Graphic file (type jpg)
+<use images/PSE_Quantum_Numbers.jpeg>
+Package pdftex.def Info: images/PSE_Quantum_Numbers.jpeg  used on input line 41
+.
+(pdftex.def)             Requested size: 76.71829pt x 25.11842pt.
+
+Overfull \hbox (0.13708pt too wide) in paragraph at lines 37--49
+[]$[]$ $[]$ 
+ []
+
+) (./3_Chemical Bonds/3.1_Covalent Bonds.tex
+<images/Covalent_Bonds.jpeg, id=13, 1574.88374pt x 618.31pt>
+File: images/Covalent_Bonds.jpeg Graphic file (type jpg)
+<use images/Covalent_Bonds.jpeg>
+Package pdftex.def Info: images/Covalent_Bonds.jpeg  used on input line 17.
+(pdftex.def)             Requested size: 69.1695pt x 27.15288pt.
+)
+(./3_Chemical Bonds/3.2_Polarity_and_Dipole_Moment.tex
+<images/electronegativity.jpeg, id=14, 1606.0pt x 988.69376pt>
+File: images/electronegativity.jpeg Graphic file (type jpg)
+<use images/electronegativity.jpeg>
+Package pdftex.def Info: images/electronegativity.jpeg  used on input line 6.
+(pdftex.def)             Requested size: 161.32779pt x 99.31267pt.
+)
+(./3_Chemical Bonds/3.3_Lewis_Structure.tex
+Overfull \hbox (43.30162pt too wide) in paragraph at lines 3--16
+[] 
+ []
+
+<images/Lewis_Structure_HCN.jpeg, id=15, 741.77126pt x 1262.7175pt>
+File: images/Lewis_Structure_HCN.jpeg Graphic file (type jpg)
+<use images/Lewis_Structure_HCN.jpeg>
+Package pdftex.def Info: images/Lewis_Structure_HCN.jpeg  used on input line 18
+.
+(pdftex.def)             Requested size: 29.03984pt x 49.42111pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+<images/Lewis_Structure_CO2.jpeg, id=16, 824.07875pt x 1150.2975pt>
+File: images/Lewis_Structure_CO2.jpeg Graphic file (type jpg)
+<use images/Lewis_Structure_CO2.jpeg>
+Package pdftex.def Info: images/Lewis_Structure_CO2.jpeg  used on input line 23
+.
+(pdftex.def)             Requested size: 48.39926pt x 67.55804pt.
+) (./3_Chemical Bonds/3.4_Ionic_Bond.tex
+<images/NaCl.jpeg, id=17, 1574.88374pt x 809.0225pt>
+File: images/NaCl.jpeg Graphic file (type jpg)
+<use images/NaCl.jpeg>
+Package pdftex.def Info: images/NaCl.jpeg  used on input line 15.
+(pdftex.def)             Requested size: 79.85684pt x 41.02135pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--20
+
+ []
+
+<images/Bookkeeping_Systems.jpeg, id=18, 1180.41pt x 275.52937pt>
+File: images/Bookkeeping_Systems.jpeg Graphic file (type jpg)
+<use images/Bookkeeping_Systems.jpeg>
+Package pdftex.def Info: images/Bookkeeping_Systems.jpeg  used on input line 21
+.
+(pdftex.def)             Requested size: 141.16066pt x 32.94858pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+<images/Oxidations_Numbers.jpeg, id=19, 1606.0pt x 523.9575pt>
+File: images/Oxidations_Numbers.jpeg Graphic file (type jpg)
+<use images/Oxidations_Numbers.jpeg>
+Package pdftex.def Info: images/Oxidations_Numbers.jpeg  used on input line 25.
+
+(pdftex.def)             Requested size: 191.57541pt x 62.49641pt.
+<images/Lattice_Energy_NaCl.jpeg, id=20, 1267.73625pt x 1109.14375pt>
+File: images/Lattice_Energy_NaCl.jpeg Graphic file (type jpg)
+<use images/Lattice_Energy_NaCl.jpeg>
+Package pdftex.def Info: images/Lattice_Energy_NaCl.jpeg  used on input line 30
+.
+(pdftex.def)             Requested size: 96.79765pt x 84.68843pt.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 5.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 5.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 5.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 5.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 5.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 5.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 8.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 6.0pt on input line 36.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 5.0pt on input line 36.
+) (./3_Chemical Bonds/3.5_Metallic_Bond.tex
+<images/Metallic_Bond.jpeg, id=21, 954.56625pt x 1226.5825pt>
+File: images/Metallic_Bond.jpeg Graphic file (type jpg)
+<use images/Metallic_Bond.jpeg>
+Package pdftex.def Info: images/Metallic_Bond.jpeg  used on input line 4.
+(pdftex.def)             Requested size: 56.4634pt x 72.54367pt.
+) (./4_Molecule Models/4.1_VSEPR.tex
+<images/VSEPR_model.jpg, id=22, 652.4375pt x 534.99875pt>
+File: images/VSEPR_model.jpg Graphic file (type jpg)
+<use images/VSEPR_model.jpg>
+Package pdftex.def Info: images/VSEPR_model.jpg  used on input line 7.
+(pdftex.def)             Requested size: 177.46088pt x 145.521pt.
+) (./5_Aggregate States/5.1_Intermolecular_Forces.tex)
+(./5_Aggregate States/5.2_Liquids.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+<images/heating process example.jpeg, id=23, 1606.0pt x 516.93124pt>
+File: images/heating process example.jpeg Graphic file (type jpg)
+<use images/heating process example.jpeg>
+Package pdftex.def Info: images/heating process example.jpeg  used on input lin
+e 13.
+(pdftex.def)             Requested size: 90.74593pt x 29.20824pt.
+<images/Clausius-Clapyeron.jpeg, id=24, 1246.6575pt x 1060.96375pt>
+File: images/Clausius-Clapyeron.jpeg Graphic file (type jpg)
+<use images/Clausius-Clapyeron.jpeg>
+Package pdftex.def Info: images/Clausius-Clapyeron.jpeg  used on input line 18.
+
+(pdftex.def)             Requested size: 54.44878pt x 46.33286pt.
+<images/Heating_curve.jpeg, id=25, 1518.67375pt x 1136.245pt>
+File: images/Heating_curve.jpeg Graphic file (type jpg)
+<use images/Heating_curve.jpeg>
+Package pdftex.def Info: images/Heating_curve.jpeg  used on input line 25.
+(pdftex.def)             Requested size: 54.44878pt x 40.7262pt.
+<images/Heating_curve_2.jpeg, id=26, 1392.20125pt x 539.01375pt>
+File: images/Heating_curve_2.jpeg Graphic file (type jpg)
+<use images/Heating_curve_2.jpeg>
+Package pdftex.def Info: images/Heating_curve_2.jpeg  used on input line 26.
+(pdftex.def)             Requested size: 54.44878pt x 21.07983pt.
+<images/Water_changes_agg_state.jpeg, id=27, 1311.90125pt x 1175.39125pt>
+File: images/Water_changes_agg_state.jpeg Graphic file (type jpg)
+<use images/Water_changes_agg_state.jpeg>
+Package pdftex.def Info: images/Water_changes_agg_state.jpeg  used on input lin
+e 33.
+(pdftex.def)             Requested size: 96.79765pt x 86.71573pt.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 7.0pt on input line 39.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 7.0pt on input line 39.
+<images/PvsT_water.jpeg, id=28, 1202.24156pt x 411.78844pt>
+File: images/PvsT_water.jpeg Graphic file (type jpg)
+<use images/PvsT_water.jpeg>
+Package pdftex.def Info: images/PvsT_water.jpeg  used on input line 52.
+(pdftex.def)             Requested size: 181.49185pt x 62.16144pt.
+) (./5_Aggregate States/5.3_Solutions_and_Colligative_Properties.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+<images/electrolytes_non_electrolytes.jpeg, id=29, 1606.0pt x 1014.79124pt>
+File: images/electrolytes_non_electrolytes.jpeg Graphic file (type jpg)
+<use images/electrolytes_non_electrolytes.jpeg>
+Package pdftex.def Info: images/electrolytes_non_electrolytes.jpeg  used on inp
+ut line 15.
+(pdftex.def)             Requested size: 108.89621pt x 68.7974pt.
+<images/neutralization_reaction.jpeg, id=30, 1606.0pt x 842.14626pt>
+File: images/neutralization_reaction.jpeg Graphic file (type jpg)
+<use images/neutralization_reaction.jpeg>
+Package pdftex.def Info: images/neutralization_reaction.jpeg  used on input lin
+e 21.
+(pdftex.def)             Requested size: 78.64687pt x 41.23596pt.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 3.20001pt on input line 24.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 2.59998pt on input line 24.
+<images/solvent_solution.jpeg, id=31, 1606.0pt x 261.97874pt>
+File: images/solvent_solution.jpeg Graphic file (type jpg)
+<use images/solvent_solution.jpeg>
+Package pdftex.def Info: images/solvent_solution.jpeg  used on input line 27.
+(pdftex.def)             Requested size: 161.32779pt x 26.31532pt.
+<images/miscible_not_miscible.jpeg, id=32, 1606.0pt x 712.6625pt>
+File: images/miscible_not_miscible.jpeg Graphic file (type jpg)
+<use images/miscible_not_miscible.jpeg>
+Package pdftex.def Info: images/miscible_not_miscible.jpeg  used on input line 
+29.
+(pdftex.def)             Requested size: 181.49185pt x 80.53535pt.
+<images/soluibility.jpeg, id=33, 1606.0pt x 574.145pt>
+File: images/soluibility.jpeg Graphic file (type jpg)
+<use images/soluibility.jpeg>
+Package pdftex.def Info: images/soluibility.jpeg  used on input line 30.
+(pdftex.def)             Requested size: 191.57541pt x 68.48267pt.
+
+Overfull \hbox (10.55345pt too wide) in paragraph at lines 57--62
+[] 
+ []
+
+) [1
+
+{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/co
+mmon_anions.jpeg> <./images/common _cations.jpeg> <./images/PSE.jpeg> <./images
+/Groups_PSE.jpeg> <./images/energy_transition_.jpeg> <./images/Orbitals.jpeg> <
+./images/orbital_shapes.jpg> <./images/Quantum_numbers_up_to_n_4.jpeg> <./image
+s/PSE_Quantum_Numbers.jpeg> <./images/Covalent_Bonds.jpeg> <./images/electroneg
+ativity.jpeg> <./images/Lewis_Structure_HCN.jpeg> <./images/Lewis_Structure_CO2
+.jpeg> <./images/NaCl.jpeg> <./images/Bookkeeping_Systems.jpeg> <./images/Oxida
+tions_Numbers.jpeg> <./images/Lattice_Energy_NaCl.jpeg> <./images/Metallic_Bond
+.jpeg> <./images/VSEPR_model.jpg> <./images/heating process example.jpeg> <./im
+ages/Clausius-Clapyeron.jpeg> <./images/Heating_curve.jpeg> <./images/Heating_c
+urve_2.jpeg> <./images/Water_changes_agg_state.jpeg> <./images/PvsT_water.jpeg>
+ <./images/electrolytes_non_electrolytes.jpeg> <./images/neutralization_reactio
+n.jpeg> <./images/solvent_solution.jpeg> <./images/miscible_not_miscible.jpeg> 
+<./images/soluibility.jpeg>]
+\openout2 = `"5_Aggregate States/5.4_Osmotic_Pressure.aux"'.
+
+ (./5_Aggregate States/5.4_Osmotic_Pressure.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--46
+[]
+ []
+
+<images/Barometer.jpeg, id=46, 1135.24126pt x 748.7975pt>
+File: images/Barometer.jpeg Graphic file (type jpg)
+<use images/Barometer.jpeg>
+Package pdftex.def Info: images/Barometer.jpeg  used on input line 47.
+(pdftex.def)             Requested size: 59.89262pt x 39.49869pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--62
+
+ []
+
+<images/Manometer.jpeg, id=47, 1002.74625pt x 658.46pt>
+File: images/Manometer.jpeg Graphic file (type jpg)
+<use images/Manometer.jpeg>
+Package pdftex.def Info: images/Manometer.jpeg  used on input line 63.
+(pdftex.def)             Requested size: 53.23845pt x 34.95447pt.
+<images/gas_kinetics.jpeg, id=48, 1606.0pt x 632.3625pt>
+File: images/gas_kinetics.jpeg Graphic file (type jpg)
+<use images/gas_kinetics.jpeg>
+Package pdftex.def Info: images/gas_kinetics.jpeg  used on input line 67.
+(pdftex.def)             Requested size: 181.49185pt x 71.46095pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--104
+
+ []
+
+<images/exothermic reaction.jpeg, id=49, 1606.0pt x 1057.9525pt>
+File: images/exothermic reaction.jpeg Graphic file (type jpg)
+<use images/exothermic reaction.jpeg>
+Package pdftex.def Info: images/exothermic reaction.jpeg  used on input line 12
+6.
+(pdftex.def)             Requested size: 54.44878pt x 35.85367pt.
+<images/endothermic reaction.jpeg, id=50, 1606.0pt x 976.64874pt>
+File: images/endothermic reaction.jpeg Graphic file (type jpg)
+<use images/endothermic reaction.jpeg>
+Package pdftex.def Info: images/endothermic reaction.jpeg  used on input line 1
+30.
+(pdftex.def)             Requested size: 54.44878pt x 33.09831pt.
+<images/enthalpy.jpeg, id=51, 1489.565pt x 278.03876pt>
+File: images/enthalpy.jpeg Graphic file (type jpg)
+<use images/enthalpy.jpeg>
+Package pdftex.def Info: images/enthalpy.jpeg  used on input line 153.
+(pdftex.def)             Requested size: 65.53854pt x 12.23119pt.
+
+Overfull \hbox (7.62987pt too wide) in paragraph at lines 188--195
+[] 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 214--217
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
+
+ []
+
+<images/0 order.jpeg, id=52, 1081.03876pt x 827.09pt>
+File: images/0 order.jpeg Graphic file (type jpg)
+<use images/0 order.jpeg>
+Package pdftex.def Info: images/0 order.jpeg  used on input line 284.
+(pdftex.def)             Requested size: 66.54782pt x 50.91052pt.
+<images/1st Order.jpeg, id=53, 1376.14125pt x 1105.12875pt>
+File: images/1st Order.jpeg Graphic file (type jpg)
+<use images/1st Order.jpeg>
+Package pdftex.def Info: images/1st Order.jpeg  used on input line 293.
+(pdftex.def)             Requested size: 66.54782pt x 53.43848pt.
+<images/2nd order.jpeg, id=54, 1275.76625pt x 1065.9825pt>
+File: images/2nd order.jpeg Graphic file (type jpg)
+<use images/2nd order.jpeg>
+Package pdftex.def Info: images/2nd order.jpeg  used on input line 302.
+(pdftex.def)             Requested size: 66.54782pt x 55.59569pt.
+<images/Arrhenius_Equation.jpeg, id=55, 1606.0pt x 328.22626pt>
+File: images/Arrhenius_Equation.jpeg Graphic file (type jpg)
+<use images/Arrhenius_Equation.jpeg>
+Package pdftex.def Info: images/Arrhenius_Equation.jpeg  used on input line 325
+.
+(pdftex.def)             Requested size: 124.52284pt x 25.44728pt.
+<images/Arrhenius_Plot.jpeg, id=56, 1515.6625pt x 1000.73875pt>
+File: images/Arrhenius_Plot.jpeg Graphic file (type jpg)
+<use images/Arrhenius_Plot.jpeg>
+Package pdftex.def Info: images/Arrhenius_Plot.jpeg  used on input line 351.
+(pdftex.def)             Requested size: 65.13493pt x 43.00038pt.
+<images/Multistep_Reaction.jpeg, id=57, 1606.0pt x 1203.49625pt>
+File: images/Multistep_Reaction.jpeg Graphic file (type jpg)
+<use images/Multistep_Reaction.jpeg>
+Package pdftex.def Info: images/Multistep_Reaction.jpeg  used on input line 354
+.
+(pdftex.def)             Requested size: 65.13493pt x 48.79274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--401
+[]$[]$ $[]$
+ []
+
+<images/Pressure_le_ chatelier.jpeg, id=58, 1606.0pt x 450.68375pt>
+File: images/Pressure_le_ chatelier.jpeg Graphic file (type jpg)
+<use images/Pressure_le_ chatelier.jpeg>
+Package pdftex.def Info: images/Pressure_le_ chatelier.jpeg  used on input line
+ 411.
+(pdftex.def)             Requested size: 74.71428pt x 20.9607pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--414
+[]
+ []
+
+<images/exothermic_vs_endothermic.jpeg, id=59, 1606.0pt x 239.89626pt>
+File: images/exothermic_vs_endothermic.jpeg Graphic file (type jpg)
+<use images/exothermic_vs_endothermic.jpeg>
+Package pdftex.def Info: images/exothermic_vs_endothermic.jpeg  used on input l
+ine 415.
+(pdftex.def)             Requested size: 191.57541pt x 28.61426pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--456
+
+ []
+
+<images/pH, pOH.jpeg, id=60, 1606.0pt x 278.03876pt>
+File: images/pH, pOH.jpeg Graphic file (type jpg)
+<use images/pH, pOH.jpeg>
+Package pdftex.def Info: images/pH, pOH.jpeg  used on input line 508.
+(pdftex.def)             Requested size: 181.49185pt x 31.42012pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 518--521
+
+ []
+
+<images/Redox_Reaction.jpeg, id=61, 1606.0pt x 634.37pt>
+File: images/Redox_Reaction.jpeg Graphic file (type jpg)
+<use images/Redox_Reaction.jpeg>
+Package pdftex.def Info: images/Redox_Reaction.jpeg  used on input line 522.
+(pdftex.def)             Requested size: 141.16066pt x 55.75504pt.
+<images/Voltaic_Cell.jpeg, id=62, 1606.0pt x 812.03375pt>
+File: images/Voltaic_Cell.jpeg Graphic file (type jpg)
+<use images/Voltaic_Cell.jpeg>
+Package pdftex.def Info: images/Voltaic_Cell.jpeg  used on input line 569.
+(pdftex.def)             Requested size: 181.49185pt x 91.76494pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--579
+
+ []
+
+) [2 <./images/Barometer.jpeg> <./images/Manometer.jpeg> <./images/gas_kinetics
+.jpeg> <./images/exothermic reaction.jpeg> <./images/endothermic reaction.jpeg>
+ <./images/enthalpy.jpeg> <./images/0 order.jpeg> <./images/1st Order.jpeg> <./
+images/2nd order.jpeg> <./images/Arrhenius_Equation.jpeg> <./images/Arrhenius_P
+lot.jpeg> <./images/Multistep_Reaction.jpeg> <./images/Pressure_le_ chatelier.j
+peg> <./images/exothermic_vs_endothermic.jpeg> <./images/pH, pOH.jpeg> <./image
+s/Redox_Reaction.jpeg> <./images/Voltaic_Cell.jpeg>] (./main.aux
+(./5_Aggregate States/5.4_Osmotic_Pressure.aux)) ) 
 Here is how much of TeX's memory you used:
- 14466 strings out of 476024
- 293606 string characters out of 5792021
- 1854388 words of memory out of 5000000
- 34681 multiletter control sequences out of 15000+600000
- 514686 words of font info for 40 fonts, out of 8000000 for 9000
+ 21532 strings out of 476024
+ 424510 string characters out of 5792021
+ 1999388 words of memory out of 5000000
+ 41430 multiletter control sequences out of 15000+600000
+ 587574 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,5n,118p,433b,840s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></
-opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></opt/te
-xlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on main.pdf (1 page, 31910 bytes).
+ 101i,10n,104p,503b,886s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/opt/texlive/texdir/texmf-di
+st/fonts/enc/dvips/libertinust1math/libusEX.enc}{/opt/texlive/texdir/texmf-dist
+/fonts/enc/dvips/libertinust1math/libusSYM.enc}{/opt/texlive/texdir/texmf-dist/
+fonts/enc/dvips/libertinust1math/libusMI.enc}{/opt/texlive/texdir/texmf-dist/fo
+nts/enc/dvips/libertinust1math/libusMR.enc}{/opt/texlive/texdir/texmf-dist/font
+s/enc/dvips/libertine/lbtn_afusau.enc}{/opt/texlive/texdir/texmf-dist/fonts/enc
+/dvips/libertine/lbtn_25tcsq.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/pu
+blic/libertinust1math/LibertinusT1Math.pfb></opt/texlive/texdir/texmf-dist/font
+s/type1/public/libertine/LinBiolinumT.pfb></opt/texlive/texdir/texmf-dist/fonts
+/type1/public/libertine/LinBiolinumTB.pfb></opt/texlive/texdir/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam5.pfb>
+Output written on main.pdf (2 pages, 6654503 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
